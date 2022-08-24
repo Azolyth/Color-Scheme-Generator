@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Color Scheme Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <input id="color-picker" type="color" />
+        <select name="scheme-select" id="scheme-select">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome Dark</option>
+          <option value="monochrome-light">Monochrome Light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-compliment">Analogic Complement</option>
+          <option value="triad">Triad</option>
+        </select>
+        <button id="get-color-btn" type="button">Get Color Scheme</button>
+      </nav>
+
+      <div class="color-scheme" id="color-scheme">
+        <div id="color-1" class="color-1"></div>
+        <div id="color-2" class="color-2"></div>
+        <div id="color-3" class="color-3"></div>
+        <div id="color-4" class="color-4"></div>
+        <div id="color-5" class="color-5"></div>
+        <div id="color-6" class="color-6"></div>
+      </div>
+
+      <footer class="hex" id="hex"></footer>
+      <!--Container Div-->
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
