@@ -6,12 +6,12 @@ body {
   margin: 0;
   padding: 0;
   color: ghostwhite;
-  background: #1c1c1c;
+  background: #2e4756;
   font-family: 'Inter', sans-serif;
 }
 
 .container {
-  background: #1f2937;
+  background: #16262e;
   width: 650px;
   height: 700px;
   margin: 0 auto;
@@ -65,3 +65,8 @@ body {
   margin: 1.2em 1.4em 0 1.4em;
   font-size: 0.87rem;
 }
+
+/* Lighter Colors 
+#C0D6DF
+#DBE9EE
+*/
